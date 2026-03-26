@@ -245,6 +245,7 @@
     <script>
 const treeData = [
     {"type":"folder","path":"/storage/emulated/0/Documents/01_GitHub_DeepSeekProject"},
+    {"type":"file","path":"index.html","size":"155 КБ","icon":"🌐","class":"html","url":"https://raw.githubusercontent.com/raliev866/DeepSeek/main/index.html"},
     {"type":"folder","path":"Книги"},
     {"type":"file","path":"Книги/00. Задачи. ТЕХНИЧЕСКОЕ ЗАДАНИЕ (ТЗ) НА НАПИСАНИЕ КНИГИ.md","size":"4 КБ","icon":"📝","class":"md","url":"https://raw.githubusercontent.com/raliev866/DeepSeek/main/Книги/00.%20Задачи.%20ТЕХНИЧЕСКОЕ%20ЗАДАНИЕ%20(ТЗ)%20НА%20НАПИСАНИЕ%20КНИГИ.md"},
     {"type":"folder","path":"Книги/01_КОНТЕКСТ_И_УПРАВЛЕНИЕ - то, что вы переносите между сессиями. Описывают текущий проект — что мы пишем, как, где находимся"},
@@ -492,7 +493,7 @@ const treeData = [
             
             document.getElementById('folderCount').textContent = folders.size;
             document.getElementById('fileCount').textContent = treeDataRaw.filter(i => i.type === 'file').length;
-            document.getElementById('totalSize').textContent = '7.7M';
+            document.getElementById('totalSize').textContent = '7.9M';
             document.getElementById('generationDate').textContent = new Date().toLocaleString('ru-RU');
         }
         
